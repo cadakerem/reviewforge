@@ -76,7 +76,7 @@ When the underlying Python engine detects this JSON output from the AI, it inter
 ## 🧑‍💻 Developer & Contributions
 Developed by Kerem Barbaros Karnabat (@cadakerem).
 
-> **Note on Repository Structure:** [TODO: Add any specific notes about the repository structure here, e.g., source vs build artifacts.]
+> **Note on Repository Structure:** As a serverless GitHub Action, the entry point and configuration schema are defined in `action.yml` at the root, while the core AI routing and review logic resides in the `src/` directory.
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [Issues page](../../issues).
 
