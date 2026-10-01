@@ -73,10 +73,12 @@ ReviewForge's AI engine is instructed to output a specific JSON payload if a cha
 
 When the underlying Python engine detects this JSON output from the AI, it intercepts it, creates a formal GitHub Issue tagged with `bug` or `security`, and then leaves a warning comment on the developer's PR linking to the newly created issue ticket.
 
-## 🤝 Contributing
+## 🧑‍💻 Developer & Contributions
+Developed by Kerem Barbaros Karnabat (@cadakerem).
 
-Contributions, issues, and feature requests are always welcome! Feel free to check the issues page.
+> **Note on Repository Structure:** [TODO: Add any specific notes about the repository structure here, e.g., source vs build artifacts.]
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [Issues page](../../issues).
 
 ## 📜 License
-
 This project is licensed under the [MIT License](LICENSE).
